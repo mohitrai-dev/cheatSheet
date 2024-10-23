@@ -10,6 +10,30 @@ nav{
     background-color: black;
     color: white;
     height: 56px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    ;
+
+}
+.navlink{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+.navlink li{
+list-style: none;
+padding: 8px;
+
+ && a{
+    text-decoration:none;
+    color :rgb(130, 130, 234);
+ }
+ && a:hover{
+    text-decoration:underline;
+ }
 }
 
 .content{
@@ -23,6 +47,7 @@ nav{
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    
 }
 
 .logo{
@@ -49,6 +74,7 @@ nav{
     background-color: red;
     color: white;
     height: 56px;
+    margin-top: 30px
 }
 .html5 img{
     padding: 0 13px;
